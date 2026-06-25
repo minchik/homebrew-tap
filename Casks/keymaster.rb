@@ -2,8 +2,8 @@
 #   minchik/homebrew-tap  ->  Casks/keymaster.rb
 # The release workflow rewrites the `version` and `sha256` lines on each tag.
 cask "keymaster" do
-  version "0.6.0"
-  sha256 "66d202700e00989a93f6ab51da4e91bc0df2d06d8cf3acc23e3d9dd20660c767"
+  version "0.7.0"
+  sha256 "283b8fe36c2590b8d31085315a844247fd08cf786d707545d51a50ac08a472c5"
 
   url "https://github.com/minchik/keymaster/releases/download/v#{version}/keymaster-#{version}.zip"
   name "Keymaster"
